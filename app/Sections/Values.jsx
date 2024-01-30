@@ -34,7 +34,7 @@ return (
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {valuesList.map((value, index) => (
           <div key={index} className="flex flex-col mb-6">
-            <h3 className="text-xl lg:text-2xl font-bold mb-2 text-center">
+            <h3 className="text-xl lg:text-2xl font-bold mb-2 text-center text-blue-950">
               {titlesList[index]}
             </h3>
             <p className="text-blue-950 text-center">{value}</p>
