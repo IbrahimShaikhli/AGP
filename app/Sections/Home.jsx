@@ -22,7 +22,7 @@ export default function Home() {
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-50"></div>
                 </div>
-                <div className="absolute lg:left-[25%] left-[25%] top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white text-center text-3xl">
+                <div className="absolute lg:left-[25%] left-[35%] top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white text-center text-3xl">
                     <div className="text-left">
                         <div className="">
                             <h3 className="text-white lg:text-xl mb-2 font-semibold text-xs">Expert Project Management</h3>
