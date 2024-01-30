@@ -3,8 +3,11 @@ import Image from "next/image";
 const ourTeam = [
     {name: "Eng.Yousef Mostafa Ahmed", description: "Chief Executive Officer", degree:"Bachelor Of Civil Engineering And Project Management", image:"/chief.jpg"},
     {name: "Eng.Mostafa Ahmed Ahmed", description: "Chief Operating Executive", degree:"Bachelor Of Civil Engineering And Project Management", image:"/chief2.jpg"},
-    {name: "Ar.Adham Mostafa Ahmed", description: "General Manager & Architectural Designer",degree:"Bachelor Of Science (Hons) Architecture And Build Environment",  image:"/engr.jpg"},
+    {name: "Ar.Adham Mostafa Ahmed", description: "General Manager ",degree:"Bachelor Of Science (Hons) Architecture ",  image:"/engr.jpg"},
 ];
+
+/*adhams full degree Bachelor Of Science (Hons) Architecture And Build Environment and his desc General Manager Architectural Designer*/
+
 
 export default function Team() {
     return (
