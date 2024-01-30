@@ -20,7 +20,7 @@ import {
     return (
       <section id="Services" className=" max-w-7xl py-20">
         <div>
-        <h1 className="text-4xl font-bold text-center my-8  ">Our Services</h1>
+        <h1 className="text-4xl font-bold text-center my-8 text-blue-950">Our Services</h1>
         </div>
         <div className="grid lg:grid-cols-5 gap-0 sm:grid-cols-2 ">
           {services.map((service, index) => (
