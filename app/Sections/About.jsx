@@ -3,7 +3,7 @@ import CarouselComponent from "@/app/UI/Components/Carousel";
 
 export default function About() {
     return (
-        <section id="About" className="pt-20 bg-gray-50 w-full">
+        <section id="About" className="pt-20 bg-gray-50 w-full text-blue-950">
             <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 mt-10">
                 <div className="md:w-1/3 space-y-2 lg:ml-80 px-2 lg:px-0">
                   <div className="flex items-end">

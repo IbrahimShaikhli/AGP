@@ -2,12 +2,12 @@ import React from 'react';
 
 export default function Achievements() {
   return (
-    <section className="pt-20 bg-gray-50 h-full py-20 w-full">
+    <section className="pt-20 bg-gray-50 h-full py-20 w-full text-blue-950">
       <div>
         <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 mt-10">
           <div className="md:w-1/3 space-y-2 lg:ml-80 lg:px-0 px-2">
             <div className="flex items-end">
-              <h3 className="text-3xl font-bold mr-4">Our Achievements</h3>
+              <h3 className="text-3xl font-bold mr-4 text-blue-950">Our Achievements</h3>
             </div>
             <p className="text-gray-600">
               AGP Consultancy & Project Management is a one-stop-shop for all construction project needs. We are experts
