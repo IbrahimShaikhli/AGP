@@ -29,8 +29,8 @@ export default function Home() {
                         </div>
 
                         <div className=" items-center">
-                            <h1 className="lg:text-7xl mb-4 font-bold text-sm">DREAM, PLAN</h1>
-                            <h1 className="lg:text-7xl font-bold text-sm">AND BUILD</h1>
+                            <h1 className="lg:text-7xl mb-4 font-bold text-lg">DREAM, PLAN</h1>
+                            <h1 className="lg:text-7xl font-bold text-lg">AND BUILD</h1>
                         </div>
                         <Link to="About" smooth={true}>
                         <button className="bg-blue-950 text-white lg:px-16 lg:py-4 px-1 py-1 font-semibold cursor-pointer lg:text-lg lg:mt-20  hover:bg-blue-800 duration-300 text-xs rounded-md">Learn More</button>
