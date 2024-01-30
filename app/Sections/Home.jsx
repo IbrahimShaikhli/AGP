@@ -22,11 +22,11 @@ export default function Home() {
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-50"></div>
                 </div>
-                <div className="absolute lg:left-[25%] left-[26%] top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white text-center text-3xl">
+                <div className="absolute lg:left-[25%] left-[35%] top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white text-center text-3xl">
                     <div className="text-left">
                     <div className="border-t-2 border-blue-950 w-[54%] sm:w-0"></div>
                         <div className="">
-                            <h3 className="text-white lg:text-xl mb-2 font-semibold text-xs">Expert Project Management</h3>
+                            <h3 className="text-white lg:text-xl mb-2 font-semibold text-sm">Expert Project Management</h3>
                         </div>
 
                         <div className=" items-center">
