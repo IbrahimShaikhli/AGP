@@ -46,7 +46,7 @@ export default function Portfolio() {
           <Link href="/Portfolio">
           <div className="relative h-48 w-[100%]  ">
             <div className="absolute top-0 left-0 w-full h-full bg-blue-950 text-white p-4 rounded-2xl flex items-center justify-center hover:bg-blue-900 duration-300">
-              <p className='text-4xl text-center font-medium cursor-pointer lg:text-6xl '>Check Out<br/> Our Portfolio</p>
+              <p className='text-4xl text-center font-medium cursor-pointer lg:text-6xl '>Portfolio</p>
                <FaRegArrowAltCircleUp className="absolute top-4 right-4 transform rotate-45 text-4xl " />
             </div>
           </div>
