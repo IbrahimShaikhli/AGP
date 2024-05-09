@@ -4,10 +4,10 @@ import { FaRegArrowAltCircleUp } from 'react-icons/fa'
 
 export default function Portfolio() {
   const projects = [
-    { name: 'Project 1', location: 'Location 1', image: '/Rotana Hotel.jpg' },
-    { name: 'Project 2', location: 'Location 2', image: '/centric.jpg' },
-    { name: 'Project 3', location: 'Location 3', image: '/degla.jpg' },
-    { name: 'Project 4', location: 'Location 4', image: '/Ministry of public works – South Surra.jpg' }
+    { name: 'Rotana Hotel', location: 'Kuwait', image: '/Rotana Hotel.jpg' },
+    { name: 'Centric Mall', location: 'New Cairo', image: '/centric.jpg' },
+    { name: 'Degla Towers', location: 'Nasr City', image: '/degla.jpg' },
+    { name: 'Ministry of Public Works', location: 'Kuwait', image: '/Ministry of public works – South Surra.jpg' }
   ];
 
   return (
@@ -45,9 +45,10 @@ export default function Portfolio() {
           {/* Check Our Portfolio */}
           <Link href="/Portfolio">
           <div className="relative h-48 w-[100%]  ">
-            <div className="absolute top-0 left-0 w-full h-full bg-blue-950 text-white p-4 rounded-2xl flex items-center justify-center hover:bg-blue-900 duration-300">
-              <p className='text-4xl text-center font-medium cursor-pointer lg:text-6xl '>Portfolio</p>
-               <FaRegArrowAltCircleUp className="absolute top-4 right-4 transform rotate-45 text-4xl " />
+            <div className="absolute top-0 left-0 w-full h-full bg-blue-950 text-white p-4 rounded-2xl  items-center justify-center grid grid-rows-auto hover:bg-blue-900 duration-300">
+              <p className='text-5xl text-center font-medium cursor-pointer lg:text-6xl '>Portfolio</p>
+               <FaRegArrowAltCircleUp className="absolute top-4 right-4 transform rotate-45 text-4xl animate-pulse" />
+               <p className=' absolute top-12 right-1 text-xl  font-medium cursor-pointer lg:text-xl lg:top-14 animate-pulse text-right'>Click here</p>
             </div>
           </div>
           </Link>

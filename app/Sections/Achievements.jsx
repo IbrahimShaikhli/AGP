@@ -19,7 +19,7 @@ export default function Achievements() {
             <div className="grid grid-cols-2 gap-4">
               {/* Square 1 */}
               <div className="bg-white p-4 rounded-md text-center shadow-md">
-                <div className="text-2xl font-bold text-blue-950">10</div>
+                <div className="text-2xl font-bold text-blue-950">75+</div>
                 <div>Projects</div>
               </div>
               {/* Square 2 */}
@@ -29,12 +29,12 @@ export default function Achievements() {
               </div>
               {/* Square 3 */}
               <div className="bg-white p-4 rounded-md text-center shadow-md">
-                <div className="text-2xl font-bold text-blue-950">20</div>
+                <div className="text-2xl font-bold text-blue-950">35</div>
                 <div>Members</div>
               </div>
               {/* Square 4 */}
               <div className="bg-white p-4 rounded-md text-center shadow-md">
-                <div className="text-2xl font-bold text-blue-950">5</div>
+                <div className="text-2xl font-bold text-blue-950">30</div>
                 <div>Awards</div>
               </div>
             </div>
